@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="funcionalidad.js"></script>
+</head>
+<body>
+    <main class="ContenedorPrincipal" >
+        <p id="turno"> X, is your turn</p>
+        <aside class="Contador">
+            <div class="X-contador" id="c-x">X Victories: 0 </div>
+            <div class="O-contador" id="c-o">O Victories: 0 </div>
+        </aside>
+        <section class="Primera-fila">
+            <div class="Botones PlayClass" id="1" onclick="XO('1'), CompX() , CompO()"></div>
+            <div class="Botones PlayClass" id="2" onclick="XO('2'), CompX() , CompO()"></div>
+            <div class="Botones PlayClass" id="3" onclick="XO('3'), CompX() , CompO()"></div>
+        </section>
+        <section class="Segunda-fila">
+            <div class="Botones PlayClass" id="4" onclick="XO('4'), CompX() , CompO()"></div>
+            <div class="Botones PlayClass" id="5" onclick="XO('5'), CompX() , CompO()"></div>
+            <div class="Botones PlayClass" id="6" onclick="XO('6'), CompX() , CompO()"></div>
+        </section>
+        <section class="Tercera-fila">
+            <div class="Botones PlayClass" id="7" onclick="XO('7'), CompX() , CompO()"></div>
+            <div class="Botones PlayClass" id="8" onclick="XO('8'), CompX() , CompO()"></div>
+            <div class="Botones PlayClass" id="9" onclick="XO('9'), CompX() , CompO()"></div>
+        </section>
+        <button id="Reload" onclick="reload()" >Reload</button>
+    </main>
+</body>
+</html>

@@ -1,0 +1,116 @@
+
+body {
+    background-color: rgb(67, 64, 64);
+}
+
+.ContenedorPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    flex-direction: column;
+}
+
+.Primera-fila , .Segunda-fila, .Tercera-fila{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#turno {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.PlayClass {
+    border: rgb(43, 255, 0) solid 4px;
+    background-color: rgb(67, 64, 64);
+    color: rgb(255, 255, 255);
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    font-size: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.X-contador{
+    margin-right:20px;
+    color: red;
+}
+.O-contador{
+    margin-right:10px;
+    color:blue;
+}
+
+.Contador {
+    background-color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    width: 380px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 17px;
+}
+
+.no-touch {
+    pointer-events: none;
+ }
+
+.XClass {
+    border: rgb(43, 255, 0) solid 4px;
+    background-color: rgb(67, 64, 64);
+    color: red;
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    font-size: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.OClass {
+    border: rgb(43, 255, 0) solid 4px;
+    background-color: rgb(67, 64, 64);
+    color: blue;
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    font-size: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.PlayClass:hover {
+    transition: ease-in-out 0.30s;
+    border-color: rgb(238, 255, 47);
+    background-color: black;
+    color: white;
+}
+
+#Reload {
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: greenyellow;
+    background-color: black;
+    cursor: pointer;
+}
