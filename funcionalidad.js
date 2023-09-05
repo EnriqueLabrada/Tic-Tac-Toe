@@ -170,4 +170,3 @@ function CompO () {
         document.getElementById('turno').innerHTML = 'It`s a tie!!!'
     }
 }
-
